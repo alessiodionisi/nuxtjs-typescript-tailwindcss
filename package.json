@@ -1,0 +1,17 @@
+{
+  "name": "nuxtjs-typescript-tailwindcss",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "start": "nuxt start",
+    "format": "prettier --write \"**/*.{js,ts,vue,json}\""
+  },
+  "dependencies": {
+    "@nuxt/types": "^2.15.3",
+    "@nuxt/typescript-build": "^2.1.0",
+    "@nuxtjs/tailwindcss": "^4.0.2",
+    "nuxt": "^2.13.3"
+  }
+}
